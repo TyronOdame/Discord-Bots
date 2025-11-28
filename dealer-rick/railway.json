@@ -1,0 +1,21 @@
+{
+  "name": "Dealer Rick",
+  "description": "A Discord bot for playing Blackjack with friends.",
+  "env": {
+    "DISCORD_TOKEN": {
+      "required": true
+    },
+    "DATABASE_URL": {
+      "required": true
+    }
+  },
+  "build": {
+    "dockerfile": "Dockerfile"
+  },
+  "start": {
+    "command": "python src/bot.py"
+  },
+  "deploy": {
+    "branch": "main"
+  }
+}
