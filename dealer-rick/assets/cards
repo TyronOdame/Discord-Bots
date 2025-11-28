@@ -1,0 +1,15 @@
+The assets/cards directory is intended to hold image files for the playing cards used in the blackjack game. Since you haven't specified any particular images or formats, I will create a placeholder file to indicate that this directory is meant for card images.
+
+Here are the contents for the file:
+
+# assets/cards/README.md
+
+This directory contains image assets for the playing cards used in the Dealer Rick blackjack game. Please add the card images in a suitable format (e.g., PNG, JPEG) here. The images should be named according to their rank and suit for easy reference in the code. 
+
+For example:
+- ace_of_spades.png
+- two_of_hearts.png
+- three_of_clubs.png
+- four_of_diamonds.png
+
+Make sure to maintain a consistent naming convention for all card images to ensure proper functionality within the bot's UI.
