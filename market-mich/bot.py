@@ -73,10 +73,10 @@ async def set_channel(ctx):
 
 def run_bot():
     """ Run the bot with the token from the environment variables """
-        if not DISCORD_TOKEN:
-            raise ValueError("DISCORD_TOKEN is not set in environment variables")
+    if not DISCORD_TOKEN:
+        raise ValueError("DISCORD_TOKEN is not set in environment variables")
 
-        bot.run(DISCORD_TOKEN)
+    bot.run(DISCORD_TOKEN)
 
 if __name__ == "__main__":
     run_bot()
